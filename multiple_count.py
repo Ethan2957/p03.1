@@ -27,3 +27,14 @@ def run_tests():
 
 # Edit this code
 def mult_count(n):
+    counter = 0
+    for i in range(5, n, 5):
+        counter = counter + i
+
+    for i in range(7, n, 7):
+        counter = counter + i
+
+    for i in range(11, n, 11):
+        counter = counter + i
+
+    print(counter)
