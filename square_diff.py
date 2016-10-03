@@ -33,5 +33,16 @@ def run_tests():
 
 # Edit this code
 def sq_diff(n):
+    counter = 0
+    for i in range(1, n+1, 1):
+        counter = counter + i
+        counter = counter^2
 
+    Times = 0
+    for l in range(1, n+1, 1):
+        l^2
+        Times = Times + l
+
+    print(counter - Times)
+        
 
