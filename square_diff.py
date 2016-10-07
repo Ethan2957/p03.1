@@ -33,5 +33,20 @@ def run_tests():
 
 # Edit this code
 def sq_diff(n):
+    addsq = 0
+    sqadd = 0
+
+    for i in range(1, n+1):
+        sqadd = sqadd + i**2
+        addsq = addsq + i
+
+
+    print(addsq**2 - sqadd)
+
+
+    
+        
+        
+        
 
 

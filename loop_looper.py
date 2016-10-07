@@ -25,4 +25,12 @@ def run_tests():
 
 
 # Edit this code
+
 def looper(n):
+    count = 0
+    for i in range(1, n+1):
+        for l in range(1,n+1):
+            count = count + (l*i)
+
+    print(count)
+            
