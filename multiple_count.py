@@ -32,9 +32,11 @@ def mult_count(n):
         count = count + 1
 
     for l in range(1, n+1, 7):
-        count = count + 1
+        if l % 5 != 0:
+            count = count + 1
 
     for j in range(1, n+1, 11):
-        count = count + 1
+        if j % 7 != 0 and j % 5 != 0:
+            count = count + 1
 
     print(count)
